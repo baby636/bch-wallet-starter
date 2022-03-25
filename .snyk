@@ -1,0 +1,384 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - semantic-release > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-plugin-lodash > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > css-loader > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > devcert > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > eslint > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > eslint-plugin-graphql > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > webpack-merge > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - standard > eslint > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-plugin-lodash > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-plugin-typescript > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-plugin-lodash > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > css-loader > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > devcert > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > eslint > inquirer > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > eslint > table > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > eslint > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > eslint-plugin-graphql > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > webpack-merge > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > adminlte-2-react > browserify-css > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-plugin-bch-tx-history > adminlte-2-react > browserify-css > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > adminlte-2-react > react-dates > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-plugin-bch-tx-history > adminlte-2-react > react-dates > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby-plugin-offline > cheerio > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - standard > eslint > inquirer > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - standard > eslint > table > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-plugin-typescript > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-plugin-lodash > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-typescript > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > eslint > inquirer > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > eslint > table > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > graphql-import > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > eslint-plugin-graphql > graphql-config > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > concurrently > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > contentful-management > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > formik > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > yup > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > apidoc > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-plugin-typescript > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-typescript > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > eslint-plugin-graphql > graphql-config > graphql-import > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > concurrently > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > contentful-management > contentful-sdk-core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > contentful-management > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > formik > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > yup > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > apidoc > apidoc-core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-plugin-typescript > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-typescript > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > contentful-management > contentful-sdk-core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > standard > eslint > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > standard > eslint-plugin-import > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-typescript > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > adminlte-2-react > react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-plugin-bch-tx-history > adminlte-2-react > react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > standard > eslint > inquirer > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > standard > eslint > table > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > memo-get-gatsby > @chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:03.056Z'

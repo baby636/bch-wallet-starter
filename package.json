@@ -16,12 +16,15 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "gatsby": "^2.23.7",
     "gatsby-ipfs-web-wallet": "^1.9.23",
-    "gatsby-plugin-bch-tx-history": "^1.1.0"
+    "gatsby-plugin-bch-tx-history": "^1.1.0",
+    "@snyk/protect": "latest"
   },
   "repository": {
     "type": "git",
@@ -41,5 +44,6 @@
         "npmPublish": false
       }
     ]
-  }
+  },
+  "snyk": true
 }
