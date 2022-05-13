@@ -19,8 +19,8 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "gatsby": "^2.23.7",
-    "gatsby-ipfs-web-wallet": "^1.9.23",
+    "gatsby": "^3.13.0",
+    "gatsby-ipfs-web-wallet": "^1.25.2",
     "gatsby-plugin-bch-tx-history": "^1.1.0"
   },
   "repository": {
@@ -31,7 +31,7 @@
     "url": "https://github.com/Permissionless-Software-Foundation/bch-wallet-starter/issues"
   },
   "devDependencies": {
-    "semantic-release": "^17.1.1",
+    "semantic-release": "^17.3.1",
     "standard": "^14.3.4"
   },
   "release": {
